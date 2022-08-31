@@ -1,0 +1,122 @@
+th,
+td {
+	padding: 10px 10px !important;
+}
+
+th {
+	background-color: brown !important;
+	color: white;
+	font-weight: 400;
+}
+
+.categories-heading {
+	width: 35%;
+}
+
+.order-heading {
+	width: 5%;
+}
+
+.title-heading {
+	width: 45%;
+}
+
+.status-heading {
+	width: 15%;
+}
+
+.todolist-wrapper button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+}
+
+.search-container {
+	overflow: hidden;
+	border: 1px solid #333;
+	border-radius: 5px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-input {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.newtasks-btn {
+	background-color: brown;
+	color: white;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+
+.newtasks-btn:hover {
+	opacity: 0.8;
+}
+
+.todo-table {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	border: 1px solid #333;
+	vertical-align: middle;
+}
+
+.category {
+	background-color: burlywood;
+	padding: 5px 10px;
+	margin: 0 5px;
+}
+
+.task-title {
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.textarea {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	resize: both;
+	min-height: 40px;
+	line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+    content: "Placeholder still possible";
+    color: gray;
+  }
+
+  .textarea {
+    border: 1px solid #ccc;
+    padding: 1px 6px;
+  }
+
+.task-title div a {
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.task-title div a:hover i {
+	color: brown;
+}
+
+.todo-input {
+    width: 80%;
+}
+
+.addtodo-btn{
+    background-color: brown !important;
+}
+
+.addtodo-btn:hover {
+    opacity: 0.8;
+}

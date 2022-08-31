@@ -1,0 +1,46 @@
+.edit-profile-form {
+    position: relative;
+}
+
+.profile-edit-form {
+    background-color: white;
+    max-width: 400px;
+}
+
+.new-password-btn {
+    width: 100%;
+    background-color: brown;
+    border: none;
+    outline: none;
+}
+
+.new-password-btn:focus {
+    background-color: brown;
+}
+
+.new-password-btn:hover {
+    opacity: 0.8;
+    background-color: brown;
+}
+
+.dropdow-icon {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+
+.edit-password-inputs-wrapper {
+    overflow: hidden;
+}
+
+.edit-password-inputs {
+    transition: all 0.5s;
+    height: 0;
+    transform: translateY(-100%);
+}
+
+.save-change-btn {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+}
