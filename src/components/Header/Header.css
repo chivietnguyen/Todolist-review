@@ -1,0 +1,27 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 30px;
+}
+
+.header--logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header--logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.header--navbar li {
+    list-style: none;
+}
+
+.header--navbar a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

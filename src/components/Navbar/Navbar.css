@@ -1,0 +1,61 @@
+.logout-btn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.navbar-wrapper {
+    list-style: none;
+}
+
+.logout {
+    margin-left: 20px;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+.profile>a i:hover {
+    color: #0d6efd;
+}
+
+.dropdown-navbar {
+    list-style: none;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    min-width: 200px;
+    left: 15px;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.profile:hover .dropdown-navbar {
+    display: block;
+}
+
+.dropdown-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.option {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.option:hover {
+    color: white;
+}
+
+.option:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.delete-account {
+    background-color: brown;
+}
